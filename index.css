@@ -1,0 +1,92 @@
+index.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Header */
+header {
+    background-color: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #2a5298;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li a {
+    background-color: white;
+    color: #1e3c72;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #d0e8ff;
+}
+
+/* MAIN SECTION LAYOUT */
+main {
+    padding: 20px;
+}
+
+/* Default section style */
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+/* 🎯 HOBBIES */
+section:nth-of-type(1) {
+    background-color: #e3f2fd;
+}
+
+/* 🎯 FAVORITES */
+section:nth-of-type(2) {
+    background-color: #f3e5f5;
+}
+
+/* 🎯 CONTACT */
+section:nth-of-type(3) {
+    background-color: #fff3e0;
+}
+
+/* Titles */
+h2 {
+    text-align: center;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
