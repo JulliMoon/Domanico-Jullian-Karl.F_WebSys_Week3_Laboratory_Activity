@@ -1,0 +1,67 @@
+about.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+header {
+    background-color: #2e3892c2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2a5298;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li a {
+    background-color: white;
+    color: #d35400;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #ffe0b2;
+}
+
+/* PROFILE SECTION */
+section {
+    background-color: #e8f5e9;
+    width: 70%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Image styling */
+img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2a5298;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
